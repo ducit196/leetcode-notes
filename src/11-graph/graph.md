@@ -36,7 +36,7 @@ Each group there is no connection between them.
 #### [Union Find](union-find/union-find.md)
 #### [Topological sort](topological-sort/)
 **Problem list:**  
-207 - [Course schedule](topological-sort/207-course-schedule.py)
-210 - [Course schedule 2](topological-sort/210-course-schedule-2.py)
-1462 - [Course schedule 4](topological-sort/1462-course-schedule-4.py)
+207 - [Course schedule](topological-sort/207-course-schedule.py)  
+210 - [Course schedule 2](topological-sort/210-course-schedule-2.py)  
+1462 - [Course schedule 4](topological-sort/1462-course-schedule-4.py)  
 2192 - [All ancestors of a node](topological-sort/2192-all-ancestors-of-a-node.py)
