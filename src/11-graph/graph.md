@@ -34,7 +34,7 @@ Each group there is no connection between them.
 130 - [Surrounded regions](connected-components/130-surrounded-regions.py)
 
 #### [Union Find](union-find/union-find.md)
-#### [Topological sort](topological-sort/)
+#### [Topological sort](topological-sort/topological-sort.md)
 **Problem list:**  
 207 - [Course schedule](topological-sort/207-course-schedule.py)  
 210 - [Course schedule 2](topological-sort/210-course-schedule-2.py)  
