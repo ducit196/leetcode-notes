@@ -30,5 +30,6 @@ From bottom, build the result up to top
             dp[i] = d[i - 1] + dp[i - 2]
         return dp[n]
 ```
+### Pattern
 
-
+[Classic DP](classic/classic-dp.md)
