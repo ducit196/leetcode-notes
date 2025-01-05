@@ -12,7 +12,7 @@ class Solution:
                 else:
                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
         return dp[m][n]
-text1 = "abcde"
-text2 = "ace"
+text1 = "abac"
+text2 = "cab"
 print(Solution().longestCommonSubsequence(text1, text2))
 
