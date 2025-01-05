@@ -31,5 +31,51 @@ From bottom, build the result up to top
         return dp[n]
 ```
 ### Pattern
+#### [Fibonacci](fibonacci/dp-fibonacci.md)  
+62 Unique path  
+63 Unique path 2  
+70 Climbing stair  
+91 Decode ways  
+198 House robber
+213 house robber 2
 
-[Classic DP](classic/classic-dp.md)
+#### [0/1 Knapsack](01-knapsack/knap-sack.md)  
+Subset Sum  
+Equal Sum Partition  
+Count of subset with given sum  
+Minimum subset sum difference  
+Target Sum  
+No of susbet with given difference  
+Count of subsets with given difference  
+Last Stone Weight 2(LC 1049)  
+#### [Longest common subsequence](longest-common-subsequence/longest-common-subsequence.md)  
+Longest Common Substring  
+Print LCS  
+Shortest Common Supersequence  
+Print SCS  
+Minimum number of insertions and deletions to from String a from String b  
+Largest Repeating Subsequence  
+Length of largest subsequence of which is a substring in b  
+Subsequence Pattern Matching  
+Count number of times a appear as subsequence in b  
+Largest Pallindromic Subsequence  
+Longest Pallindromic Substring  
+Count of Pallindromic Substring  
+Minimum deletions to make a string Pallindrome  
+Minimum insertions to make a string Pallindrome  
+Minimum deletions to make a->b  
+
+#### [Longest increasing subsequence](longest-increasing-subsequence/longest-increasing-subsequence.md)  
+Maximum Sum Increasing Subsequence  
+Print LIS  
+Best Team with No Conflicts (LC 1626)  
+No of LIS  
+Increasing Triplet Subsequence  
+LIS having sum almost K  
+Minimum Number of Removals to Make Mountain Array
+
+#### [DP + Backtracking + Bitmap](dp-backtracking/dp-backtracking.md)  
+1006 campus bike
+1799 Maximize score after n operations
+2376 count special integer
+#### [Classic DP](classic/classic-dp.md)  
