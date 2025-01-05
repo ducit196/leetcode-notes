@@ -38,7 +38,11 @@ From bottom, build the result up to top
 91 Decode ways  
 198 House robber
 213 house robber 2
-
+Number factors  
+Minimum jumps to reach the end  
+Minimum jumps with fee  
+House thief  
+Staircase  
 #### [0/1 Knapsack](01-knapsack/knap-sack.md)  
 Subset Sum  
 Equal Sum Partition  
@@ -75,7 +79,28 @@ LIS having sum almost K
 Minimum Number of Removals to Make Mountain Array
 
 #### [DP + Backtracking + Bitmap](dp-backtracking/dp-backtracking.md)  
-1006 campus bike
-1799 Maximize score after n operations
-2376 count special integer
+1006 campus bike  
+1799 Maximize score after n operations  
+2376 count special integer  
 #### [Classic DP](classic/classic-dp.md)  
+
+#### Kadane's Algo:(Need learn)
+
+Maximum difference of 0's and 1's in a binary string  
+Maximum Sum Circular array  
+Smallest sum contiguous subarray  
+Largest sum increasing contiguous subarray  
+Maximum Product Subarray  
+Largest sum contiguous subarray with only non-negative elements.  
+Largest sum contiguous subarray with unique elements.  
+Maximum Alternating Sum Subarray  
+Maximum Sum Rectangle In A 2D Matrix  
+
+#### Matrix Chain Multiplication(Need learn)
+Priting MCM  
+Burst Ballons  
+Evaluate Expression to True/ Boolean Paranthesization  
+Minimum / Maximum Value of an Expression  
+Pallindrome Partitioning  
+Scramble String  
+Egg Dropping Problem  
