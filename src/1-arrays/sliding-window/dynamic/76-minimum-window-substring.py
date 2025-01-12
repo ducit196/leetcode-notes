@@ -13,6 +13,7 @@ class Solution:
         if n < m:
             return ''
         countT = Counter(t)
+        print(countT)
         countS = Counter(s[0:m])
 
         ansLength =  math.inf

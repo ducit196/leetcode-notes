@@ -19,7 +19,7 @@ There are 2 type, static and dynamic sliding window
 **Dynamic**: Run right pointer until meet the condition, shrink left to right to check if we still meet expectation --> Find min, max  
 [3-longest-substring-without-repeating-characters.py](sliding-window%2Fdynamic%2F3-longest-substring-without-repeating-characters.py)  
 [76-minimum-window-substring.py](sliding-window%2Fdynamic%2F76-minimum-window-substring.py)  
-[209-minimum-size-subarray-sum.py](sliding-window%2Fdynamic%2F209-minimum-size-subarray-sum.py)  
+[209-minimum-size-subarray-sum.py](sliding-window%2Fdynamic%2F209-minimum-size-subarray-sum.py)
 
 ## Prefix Sum
 Precompute sum of array, then can quick cal sum of range number  
