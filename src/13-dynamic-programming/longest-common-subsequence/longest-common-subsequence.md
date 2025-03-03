@@ -13,3 +13,4 @@ Main idea: if at position (i,j) s1[i] == s2[j] --> dp[i][j] = dp[i - 1][j -1] + 
                 dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
     return dp[-1][-1]
 ```
+dp[i][j] is length of LCS of s1[:i] and s2[:j]
