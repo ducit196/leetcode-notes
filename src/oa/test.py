@@ -1,8 +1,6 @@
 
 class Solution:
     def test(self):
-        s = set()
-        s.add(1)
-        s.add(2)
-        s.add(1)
+        print(7 & 1 & 1 & 7)
+        print(1 & 6)
 Solution().test()
