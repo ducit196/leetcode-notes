@@ -28,11 +28,11 @@ Each group there is no connection between them.
 **Problem list:**  
 [785](https://leetcode.com/problems/is-graph-bipartite/) - [Is bipartite graph](bipartite/785-is-bipartite-graph.py)  
 [886](https://leetcode.com/problems/possible-bipartition/description/) - [Possible Bipartite](bipartite/886-possible-bipartition.py)
-#### [Connected components 2D maxtrix](connected-components/connected-components.md)
+#### [Connected components 2D maxtrix](connected-components(bfs)/connected-components.md)
 **Problem list:**  
-200 - [Number of islands](connected-components/200-number-of-island.py)  
-695 - [Max area of islands](connected-components/695-max-area-off-island-dfs.py) Similar to number of island, just count and find max  
-130 - [Surrounded regions](connected-components/130-surrounded-regions.py)
+200 - [Number of islands](connected-components(bfs)/200-number-of-island.py)  
+695 - [Max area of islands](connected-components(bfs)/695-max-area-off-island-dfs.py) Similar to number of island, just count and find max  
+130 - [Surrounded regions](connected-components(bfs)/130-surrounded-regions.py)
 
 #### [Union Find](union-find/union-find.md)
 Resolve problem related group data, find connected component, cycle detection, dynamic added edge in graph

@@ -8,6 +8,8 @@ class Solution:
     # TC: O(m + n) m = number of edge, n = number of vertices
     # SC: O(n)
 
+    #prerequisites = [1, 0]
+
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         n = numCourses
         #edge list to adj and cal degree
