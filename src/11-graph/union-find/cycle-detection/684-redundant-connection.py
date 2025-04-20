@@ -9,26 +9,22 @@ class Solution:
         #TC:
         n = len(edges)
         parent = [-1] * n
-
-        def find(i: int) ->int:
+        def union(i, j):
+            parent[i] = j
+        def find(i):
             root = i
             while parent[root] != -1:
                 root = parent[root]
-
             while i != root:
-                u = parent[i]
+                tmp = parent[i]
                 parent[i] = root
-                i = u
+                i = tmp
             return root
-
-        def union(i: int, j: int):
-            parent[i] = j
-
         for u, v in edges:
-            x = find(u - 1)
-            y = find(v - 1)
-            if x != y:
-                union(x, y)
+            pU = find(u - 1)
+            pV = find(v - 1)
+            if pU != pV:
+                union(pU, pV)
             else:
                 return [u, v]
 
