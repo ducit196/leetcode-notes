@@ -12,14 +12,10 @@ class Solution:
         def union(i, j):
             parent[i] = j
         def find(i):
-            root = i
-            while parent[root] != -1:
-                root = parent[root]
-            while i != root:
-                tmp = parent[i]
-                parent[i] = root
-                i = tmp
-            return root
+            if parent[i] == -1:
+                return i
+            parent[i] = find(parent[i])  # Path compression
+            return parent[i]
         for u, v in edges:
             pU = find(u - 1)
             pV = find(v - 1)
@@ -28,6 +24,6 @@ class Solution:
             else:
                 return [u, v]
 
-edges = [[1,2],[1,3],[2,3]]
+edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]
 ans = Solution().findRedundantConnection(edges)
 print(ans)
