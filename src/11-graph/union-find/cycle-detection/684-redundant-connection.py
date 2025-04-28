@@ -14,7 +14,7 @@ class Solution:
         def find(i):
             if parent[i] == -1:
                 return i
-            parent[i] = find(parent[i])  # Path compression
+            parent[i] = find(parent[i])
             return parent[i]
         for u, v in edges:
             pU = find(u - 1)
