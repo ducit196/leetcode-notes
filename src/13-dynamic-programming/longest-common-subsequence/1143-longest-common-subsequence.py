@@ -11,7 +11,24 @@ class Solution:
                     dp[i][j] = dp[i - 1][j - 1] + 1
                 else:
                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+        #prin lcs
+        i, j = m, n
+        ans = []
+        while i > 0 and j > 0:
+            if text1[i - 1] == text2[j - 1]:
+                ans.append(text1[i - 1])
+                i -= 1
+                j -= 1
+            elif dp[i - 1][j] > dp[i][j - 1]:
+                i -= 1
+            else:
+                j -= 1
+        ans.reverse()
+        print(ans)
+
         return dp[m][n]
+
+
 text1 = "abac"
 text2 = "cab"
 print(Solution().longestCommonSubsequence(text1, text2))
