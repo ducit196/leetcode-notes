@@ -3,6 +3,10 @@
 Dynamic sliding window have some shrink pattern  
 ### Run right until meet condition, shrink left to right to find optimize condition(Use for find min)  
 
+Find max --> while invalid shrink left to right  
+Find min --> while valid --> shirnk left to right to find better solution
+
+
 **Pseudo code**
 ```plaintext
     left = 0, right = 0

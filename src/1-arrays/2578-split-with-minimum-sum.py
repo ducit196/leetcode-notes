@@ -1,6 +1,7 @@
 class Solution:
     def splitNum(self, num: int) -> int:
         s = str(num)
+        sorted(s)
         s = ''.join(sorted(s))
         firstNum = 0
         secondNum = 0
